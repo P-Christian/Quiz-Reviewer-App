@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_pink"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="a computer accessory used to scan documents,digitalize information,and present on the computer screen"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/odetoidlegaming"
+        />
+
+    <Button
+        android:id="@+id/xbtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Q1"
+        android:layout_marginTop="60dp"
+        android:text="HEADSET"
+        android:fontFamily="@font/odetoidlegaming"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edge"
+        />
+
+    <Button
+        android:id="@+id/correct1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/xbtn1"
+        android:layout_marginTop="20sp"
+        android:text="Digital Scanner"
+        android:fontFamily="@font/odetoidlegaming"
+        android:background="@drawable/edge"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/xbtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/correct1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/odetoidlegaming"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+        android:text="webcams"
+        />
+
+
+</RelativeLayout>

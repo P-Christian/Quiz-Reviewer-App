@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_pink"
+    android:scrollbarSize="0dp"
+    android:fillViewport="true"
+    tools:context=".Quizreviewer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/Reviewertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/odetoidlegaming"
+            android:text="REVIEWER"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPUTER PERIPHERALS"
+            android:fontFamily="monospace"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Reviewertext"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/inputdevicespic"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/Reviewertext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/inputdevice" />
+
+        <TextView
+            android:id="@+id/labeldevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="INPUT DEVICES"
+            android:layout_below="@+id/inputdevicespic"
+            android:textColor="@color/green"
+            android:fontFamily="@font/retrogame" />
+
+        <TextView
+            android:id="@+id/meaningmonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labeldevices"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:text="These devices input data and instructions into the computer system."
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/mousepic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/meaningmonitor"
+            android:src="@drawable/mousecircle"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/labelmouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mousepic"
+            android:layout_centerHorizontal="true"
+            android:text="MOUSE"
+            android:textColor="@color/green"
+            android:fontFamily="@font/retrogame"
+            />
+        <TextView
+            android:id="@+id/meaningmouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="A handheld device that is used for controlling the cursor."
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:layout_below="@id/labelmouse"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/scannerpic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/meaningmouse"
+            android:src="@drawable/scanner"
+            />
+        <TextView
+            android:id="@+id/scannerlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLATBED SCANNER"
+            android:fontFamily="@font/retrogame"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/green"
+            android:layout_below="@+id/scannerpic"
+            />
+
+        <TextView
+            android:id="@+id/scannermeaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A digital scanner is used for scanning documents and digitalizing information."
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/scannerlabel"
+            />
+        <ImageView
+            android:id="@+id/speakerspic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/scannermeaning"
+            android:src="@drawable/speaker"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/speakerslabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPEAKERS"
+            android:fontFamily="@font/retrogame"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/green"
+            android:layout_below="@+id/speakerspic"
+            />
+
+        <TextView
+            android:id="@+id/speakermeaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An output device that is connected to the computer; Speakers generate sound for users to hear digital audio."
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/speakerslabel"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

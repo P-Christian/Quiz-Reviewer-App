@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_pink"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="What are the devices used to enter data and instruction into the computer system?"
+        android:textSize="20sp"
+        android:fontFamily="@font/odetoidlegaming"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/xbtn5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Q3"
+        android:layout_marginTop="60dp"
+        android:text="output devices"
+        android:fontFamily="@font/odetoidlegaming"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edge"/>
+
+    <Button
+        android:id="@+id/xbtn6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/xbtn5"
+        android:layout_marginTop="20sp"
+        android:text="Computer Memory"
+        android:fontFamily="@font/odetoidlegaming"
+        android:background="@drawable/edge"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/correct3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/xbtn6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+        android:fontFamily="@font/odetoidlegaming"
+        android:text="Input Devices"/>
+
+</RelativeLayout>

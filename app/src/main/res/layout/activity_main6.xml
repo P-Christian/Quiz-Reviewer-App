@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_pink"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Q5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/odetoidlegaming"
+        android:text="A handheld device that is used to control the cursor"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/wrong1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Q5"
+        android:layout_marginTop="60dp"
+        android:text="Scanner"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/odetoidlegaming"
+
+        />
+
+
+    <Button
+        android:id="@+id/wrong2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wrong1"
+        android:layout_marginTop="20sp"
+        android:text="keyboard"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+        android:fontFamily="@font/odetoidlegaming"
+
+        />
+
+    <Button
+        android:id="@+id/correct5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/wrong2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+        android:fontFamily="@font/odetoidlegaming"
+
+        android:text="mouse"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/Dark_pink"
+    android:orientation="vertical"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/odetoidlegaming"
+        android:text="RESULTS"
+        android:textAlignment="center"
+        android:textColor="@color/Light_pink"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:padding="15dp"
+        android:text="Congratulations!\nYou have completed the quiz"
+        android:textColor="@color/white"
+        android:fontFamily="@font/retrogame"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="190dp"
+        android:layout_height="90dp"
+        android:text="RETURN"
+        android:textSize="25sp"
+        android:fontFamily="@font/retrogame"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/score"
+        android:background="@drawable/edge"
+        android:onClick="onClicked"
+        />
+
+
+
+
+
+
+</RelativeLayout>
